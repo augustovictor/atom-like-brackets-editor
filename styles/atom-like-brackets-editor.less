@@ -1,0 +1,38 @@
+// Package developed by Victor Augusto
+//
+// See https://github.com/victoraweb/atom-like-brackets-editor
+// for a full listing of what's available.
+@import "ui-variables";
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+.tree-view li[is=tree-view-file]:hover {
+    background: #333;
+    cursor: pointer;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  color: white;
+  // line-height: 20px;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  border-color: #BFEE90;
+}
+
+atom-text-editor::shadow .line.cursor-line {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+atom-text-editor::shadow  .bracket-matcher .region {
+  // border: 1px solid rgba(222, 149, 54, 0.6);
+  border-radius: 5px;
+  background-color: rgba(255, 0, 255, 0.6);
+  box-shadow: 0 0 3px 2px #FF1177;
+}

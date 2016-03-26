@@ -1,0 +1,18 @@
+{
+  "name": "atom-like-brackets-editor",
+  "main": "./lib/atom-like-brackets-editor",
+  "version": "1.0.0",
+  "description": "Making atom look like brackets editor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-like-brackets-editor:toggle"
+  },
+  "repository": "https://github.com/victoraweb/atom-like-brackets-editor",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
