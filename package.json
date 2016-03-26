@@ -1,7 +1,7 @@
 {
   "name": "atom-like-brackets-editor",
   "main": "./lib/atom-like-brackets-editor",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Making atom look like brackets editor",
   "keywords": [],
   "repository": "https://github.com/victoraweb/atom-like-brackets-editor",
