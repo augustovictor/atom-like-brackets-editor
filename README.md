@@ -1,5 +1,5 @@
 # atom-like-brackets-editor
-### My personal atom configurations
+### Make atom look like brackets editor
 
  - [x] Matching brackets like brackets editor;
  - [x] Highlight current line;
