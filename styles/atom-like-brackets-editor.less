@@ -23,15 +23,15 @@ atom-text-editor {
 
 // Starting from Atom v1.13.0, the contents of atom-text-editor elements are no longer encapsulated within a shadow DOM boundary
 
-atom-text-editor::shadow .cursor {
+atom-text-editor.editor .cursor {
   border-color: #BFEE90;
 }
 
-atom-text-editor::shadow .line.cursor-line {
+atom-text-editor.editor .line.cursor-line {
     background: rgba(255, 255, 255, 0.1);
 }
 
-atom-text-editor::shadow .bracket-matcher .region {
+atom-text-editor.editor .bracket-matcher .region {
   // border: 1px solid rgba(222, 149, 54, 0.6);
   border-radius: 5px;
   background-color: rgba(255, 0, 255, 0.6);
